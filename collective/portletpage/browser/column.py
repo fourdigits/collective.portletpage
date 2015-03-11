@@ -40,7 +40,8 @@ class PortletPageColumn(ColumnPortletManagerRenderer):
 class ManagePortlets(ManageContextualPortlets):
     """View used for the edit screen
     """
-    implementsOnly(IManagePortletPagePortletsView)
+    # this is forked from https://github.com/collective/collective.portletpage and removed
+    #implementsOnly(IManagePortletPagePortletsView)
 
     __call__ = ViewPageTemplateFile('manage-portletpage-portlets.pt')
 
