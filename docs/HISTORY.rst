@@ -1,8 +1,8 @@
 Changelog
 =========
 
-1.2.2 (unreleased)
-------------------
+1.2.1-fourdigits (2015-03-11)
+-----------------------------
 
 - Nothing changed yet.
 
